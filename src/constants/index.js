@@ -15,6 +15,7 @@ import {
   recruitment,
   huntly,
   oracle,
+  greybox,
   comicify_ai,
   greentrust,
   averlon,
@@ -26,7 +27,20 @@ import {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  headstarter,
+  bcedaccess,
+  TMU,
+  Udacity,
+  sfmb,
+  vira,
+  aaniin,
+  flashpass,
+  shelfwise,
+  aiclassifier,
+  advisorai,
+  reciperadar,
+  snakegame
 } from "../assets";
 
 import {
@@ -72,7 +86,20 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiAmazonec2,
+  SiVercel,
+  SiFirebase,
+  SiNodedotjs,
+  SiSqlite,
+  SiTensorflow,
+  SiPytorch,
+  SiDocker,
+  SiKubernetes,
+  SiStripe,
+  SiJupyter,
+  SiNumpy,
+  SiRay
 } from "react-icons/si";
 
 import {
@@ -90,10 +117,10 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const resumeLink = "https://drive.google.com/file/d/1_g_iQKP1aTiUpZS3HmJ17FeOMEjORDF7/view?usp=sharing";
+export const repoLink = "https://github.com/safwanh28";
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "https://www.linkedin.com/in/safwanhaque";
 
 export const navLinks = [
   {
@@ -105,20 +132,12 @@ export const navLinks = [
     title: "Education",
   },
   {
-    id: "achievements",
-    title: "Achievements",
-  },
-  {
     id: "projects",
     title: "Projects",
   },
   {
-    id: "openSource",
-    title: "Open Source",
-  },
-  {
     id: "extraCurricular",
-    title: "Extra Curricular",
+    title: "Other Experiences",
   },
   {
     id: "contactMe",
@@ -129,20 +148,20 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    icon: TMU,
+    title: "Toronto Metropolitan University",
+    degree: "Bachelor of Engineering: Computer Engineering",
+    duration: "Sep 2021 - Apr 2026",
+    content1: "Specialization: Software Engineering",
+    content2: "Relevant Coursework: Intro to Eng (GPA 4.0), Computer Fundamentals (GPA 4.33), Software Systems, Algorithms and Data Structures (GPA 4.33), Object Oriented Analysis Design (GPA 4.00), Microprosessors Systems (GPA 4.0), Database Systems, Operating Systems, Eng Comms (GPA 4.0), Computer Org & Arch, Software REQs and SPEC, Adv. Algorithms",
   },
   {
     id: "education-2",
-    icon: pba,
-    title: "Polkadot Blockchain Academy",
-    degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    icon: Udacity,
+    title: "Udacity",
+    degree: "AWS: AI Programming with Python Nanodegree",
+    duration: "Jul 2023 - Oct 2023",
+    content1: "Full Scholarship from AWS",
   },
 ];
 
@@ -222,20 +241,25 @@ export const achievements = [
   },
 ];
 
-
+//aws, gcp, node, next, vercel, flask, sqllite, firebase, 
 export const skills = [
   {
     title: "Programming Languages",
     items: [
       {
-        id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
-      },
-      {
         id: "pl-2",
         icon: SiPython,
         name: "Python",
+      },
+      {
+        id: "pl-10",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+      {
+        id: "pl-7",
+        icon: SiC,
+        name: "C",
       },
       {
         id: "pl-3",
@@ -243,24 +267,9 @@ export const skills = [
         name: "C++",
       },
       {
-        id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
-      },
-      {
         id: "pl-6",
         icon: DiJava,
         name: "Java",
-      },
-      {
-        id: "pl-7",
-        icon: SiC,
-        name: "C",
       },
       {
         id: "pl-8",
@@ -272,16 +281,6 @@ export const skills = [
         icon: DiCss3,
         name: "CSS",
       },
-      {
-        id: "pl-10",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
-      }
     ],
   },
   {
@@ -289,18 +288,18 @@ export const skills = [
     items: [
       {
         id: "f-1",
-        icon: SiDjango,
-        name: "Django",
+        icon: SiReact,
+        name: "ReactJS",
       },
       {
         id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
+        icon: SiNextdotjs,
+        name: "Next.js",
       },
       {
         id: "f-3",
-        icon: SiReact,
-        name: "ReactJS",
+        icon: SiFlask,
+        name: "Flask",
       },
       {
         id: "f-4",
@@ -309,23 +308,23 @@ export const skills = [
       },
       {
         id: "f-5",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
+        icon: SiDotnet,
+        name: ".NET",
       },
       {
         id: "f-6",
-        icon: SiJquery,
-        name: "jQuery",
+        icon: SiPytorch,
+        name: "PyTorch",
       },
       {
         id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
+        icon: SiTensorflow,
+        name: "TensorFlow",
       },
       {
         id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
+        icon: SiSqlite,
+        name: "SQLite",
       },
     ],
   },
@@ -338,9 +337,24 @@ export const skills = [
         name: "Azure",
       },
       {
+        id: "t-8",
+        icon: SiAmazonec2,
+        name: "Amazon EC2",
+      },
+      {
         id: "t-2",
         icon: SiMysql,
         name: "MySQL",
+      },
+      {
+        id: "t-20",
+        icon: SiOpenai,
+        name: "OpenAI",
+      },
+      {
+        id: "t-2",
+        icon: SiFirebase,
+        name: "Firebase",
       },
       {
         id: "t-3",
@@ -364,18 +378,28 @@ export const skills = [
       },
       {
         id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
+        icon: SiNodedotjs,
+        name: "Node.js",
       },
       {
-        id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
+        id: "t-7",
+        icon: SiDocker,
+        name: "Docker",
+      },
+      {
+        id: "t-7",
+        icon: SiKubernetes,
+        name: "Kubernetes",
+      },
+      {
+        id: "t-21",
+        icon: SiStripe,
+        name: "Stripe",
       },
       {
         id: "t-9",
-        icon: SiVite,
-        name: "ViteJS",
+        icon: SiVercel,
+        name: "Vercel",
       },
     ],
   },
@@ -383,30 +407,47 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Oracle, India",
-    logo: oracle,
-    link: "https://www.oracle.com/in/",
+    organisation: "Grey-Box",
+    logo: greybox,
+    link: "https://www.grey-box.ca/",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
+        title: "Software Engineering Intern",
+        duration: "May 2024 - Aug 2024",
         content: [
           {
-            text: "Working in the DBaaS Control Plane team in the Database Unit.",
+            text: "Developed the backend of a software designed to translate medicine names across 5 different languages",
             link: "",
           },
+          {
+            text: "Implemented, tested, and evaluated 6 fuzzy matching algorithms to find the most effective solution for accurately identifying user-inputted medicine names in the database, improving search precision by 60%",
+            link: ""
+          },
+          {
+            text: "Designed an innovative SQL schema that categorized and indexed over 10 thousand medicine names, resulting in optimized data retrieval processes and reducing search times by 70%",
+            link: ""
+          },
+          {
+          text: "Led iterative feedback sessions across teams, driving the successful adaptation of project goals",
+          link: ""
+        }
+        
+
         ],
       },
+    ],
+  },
+  {
+    organisation: "Headstarter AI",
+    logo: headstarter,
+    link: "https://headstarter.co/",
+    positions: [
       {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
+        title: "Software Engineering Fellow",
+        duration: "Jul 2024 - Aug 2024",
         content: [
           {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
-            link: "",
-          },
-          {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
+            text: "Led a team of 4 students in the development of 5 AI projects over a 7-week period, coordinating project tasks and fostering collaboration while gaining hands-on experience in various AI technologies and methodologies",
             link: ""
           }
         ],
@@ -414,71 +455,33 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Averlon",
-    logo: averlon,
-    link: "https://averlon.ai/",
+    organisation: "Storefront Manitoba",
+    logo: sfmb,
+    link: "https://storefrontmb.ca/",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        title: "Technical Intern",
+        duration: "Jul 2024 - Aug 2024",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: ""
+            text: "Developed and managed a comprehensive donor database to efficiently track and maintain records for over 1,000 donors, ensuring accurate data entry and effective data retrieval",
+            link: "",
           },
-          {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: ""
-          }
         ],
       },
     ],
   },
   {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
+    organisation: "BCEdAccess Society",
+    logo: bcedaccess,
+    link: "https://bcedaccess.com/",
     positions: [
-      {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
-        content: [
-          {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managing a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
       {
         title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
+        duration: "Oct 2023 - Dec 2023",
         content: [
           {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
+            text: "Revamped the organization's website, enhancing its design, user experience, and functionality, resulting in a significant increase in web traffic and donations",
             link: "",
           },
         ],
@@ -488,214 +491,18 @@ export const experiences = [
 ];
 
 export const openSourceContributions = [
-  {
-    id: "os-1",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "pull-request",
-    status: "merged",
-    title:
-      "Move _wiki to old table look, common template for email and settings digest only",
-    link: "https://github.com/publiclab/plots2/pull/10731",
-    number: "#10731",
-    date: "Feb 24 2022",
-    linesAdded: "101",
-    linesDeleted: "48",
-  },
-  {
-    id: "os-2",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "pull-request",
-    status: "merged",
-    title: "Combine templates for email digest and settings digest",
-    link: "https://github.com/publiclab/plots2/pull/10681",
-    number: "#10681",
-    date: "Feb 9 2022",
-    linesAdded: "86",
-    linesDeleted: "106",
-  },
-  {
-    id: "os-3",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "pull-request",
-    status: "merged",
-    title: "Fix reverse chronological sorting on inline grids",
-    link: "https://github.com/publiclab/plots2/pull/11114",
-    number: "#11114",
-    date: "May 4 2022",
-    linesAdded: "1",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-4",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "pull-request",
-    status: "merged",
-    title: "style: Make post page footer responsive",
-    link: "https://github.com/publiclab/plots2/pull/10634",
-    number: "#10634",
-    date: "Feb 24 2022",
-    linesAdded: "64",
-    linesDeleted: "8",
-  },
-  {
-    id: "os-5",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Typos in Translation_System.md",
-    link: "https://github.com/publiclab/plots2/issues/11120",
-    number: "#11120",
-    date: "May 6 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-6",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Missing translations on layouts/_header.html.erb",
-    link: "https://github.com/publiclab/plots2/issues/11115",
-    number: "#11115",
-    date: "May 4 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-7",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Missing translation of 'This is part of' on _tagging.html.erb",
-    link: "https://github.com/publiclab/plots2/issues/10986",
-    number: "#10986",
-    date: "Apr 8 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-8",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Wrong closing heading tag in _digest.html.erb",
-    link: "https://github.com/publiclab/plots2/issues/10985",
-    number: "#10985",
-    date: "Apr 8 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-9",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Add class to center wiki.scraped_image in wikis template",
-    link: "https://github.com/publiclab/plots2/issues/10797",
-    number: "#10797",
-    date: "Mar 18 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-10",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Images on /wiki are not center aligned",
-    link: "https://github.com/publiclab/plots2/issues/10755",
-    number: "#10755",
-    date: "Mar 4 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-11",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "invitations: Check invitation from a now-deactivated user.",
-    link: "https://github.com/zulip/zulip/pull/20206",
-    number: "#20206",
-    date: "Dec 30 2021",
-    linesAdded: "31",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-12",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "invitations: Check invitation from a now-deactivated user.",
-    link: "https://github.com/zulip/zulip/pull/20206",
-    number: "#20206",
-    date: "Dec 30 2021",
-    linesAdded: "31",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-13",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "authentication: Fix placeholder realms for redirects.",
-    link: "https://github.com/zulip/zulip/pull/19689",
-    number: "#19689",
-    date: "Sep 9 2021",
-    linesAdded: "1",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-14",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "message_editing : Fix topic edit propagate option cut-off",
-    link: "https://github.com/zulip/zulip/pull/19760",
-    number: "#19760",
-    date: "Feb 10 2022",
-    linesAdded: "9",
-    linesDeleted: "8",
-  },
+
 ];
 
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
-    image: comicify_ai,
+    title: "FlashPass",
+    github: "https://github.com/SafwanH28/Flashpass",
+    link: "https://flashpass.vercel.app/",
+    image: flashpass,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "FlashPass is an AI-powered flashcard app built with Next.js, React, and Node.js to help users generate personalized flashcards for efficient learning. It features secure authentication, payments, and data storage. A demo can be viewed by clicking the link icon.",
     stack: [
       {
         id: "icon-1",
@@ -704,8 +511,13 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiNodedotjs,
+        name: "Node.js"
+      },
+      {
+        id: "icon-4",
+        icon: SiNextdotjs,
+        name: "Next.js"
       },
       {
         id: "icon-3",
@@ -713,25 +525,30 @@ export const projects = [
         name: "OpenAI"
       },
       {
-        id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
+        id: "icon-5",
+        icon: SiFirebase,
+        name: "Firebase"
       },
       {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
+        id: "icon-6",
+        icon: SiVercel,
+        name: "Vercel"
+      },
+      {
+        id: "icon-7",
+        icon: SiStripe,
+        name: "Stripe"
       },
     ],
   },
   {
     id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
+    title: "ShelfWise",
+    github: "https://github.com/SafwanH28/ShelfWise",
+    link: "https://shelfwisemanagement.vercel.app/",
+    image: shelfwise,
     content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+      "ShelfWise is a book inventory management system built with Firebase, allowing users to track, manage, and organize their personal or professional book collections. A demo can be viewed by clicking the link icon.",
     stack: [
       {
         id: "icon-1",
@@ -740,295 +557,137 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiNodedotjs,
+        name: "Node.js"
       },
       {
-        id: "icon-3",
+        id: "icon-4",
         icon: SiNextdotjs,
         name: "Next.js"
       },
       {
-        id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
         id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
+        icon: SiFirebase,
+        name: "Firebase"
       },
       {
         id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
+        icon: SiVercel,
+        name: "Vercel"
       },
     ],
   },
   {
     id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
+    title: "AdvisorAI",
+    github: "https://github.com/SafwanH28/AdvisorAI",
+    link: "http://3.143.230.18/",
+    image: advisorai,
     content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
+      "AdvisorAi is a financial advice chatbot powered by the OpenAI API, offering personalized guidance on budgeting and investing. A demo can be viewed by clicking the link icon.",
     stack: [
+      {
+        id: "icon-6",
+        icon: SiAmazonec2,
+        name: "Amazon EC2"
+      },
+      {
+        id: "icon-5",
+        icon: SiOpenai,
+        name: "OpenAI"
+      },
       {
         id: "icon-1",
         icon: SiReact,
         name: "React"
       },
       {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js"
+        id: "icon-2",
+        icon: SiNodedotjs,
+        name: "Node.js"
       },
       {
         id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat"
-      },
-      {
-        id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino"
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
+        icon: SiNextdotjs,
+        name: "Next.js"
       },
     ],
   },
   {
     id: "project-4",
-    title: "Samsotech Table Management System",
-    github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
+    title: "RecipeRadar",
+    github: "https://github.com/SafwanH28/RecipeReviewWebapp",
+    link: "",
+    image: reciperadar,
     content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
+      "RecipeRadar is a recipe review app built with Flask and SQLite, allowing users to search for, rate, and save their favorite dishes.",
     stack: [
       {
         id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server"
-      },
-      {
-        id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-      {
-        id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio"
-      },
-    ],
-  },
-  {
-    id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
-    image: recruitment,
-    content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-    ],
-  },
-  {
-    id: "project-6",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
-    content:
-      "The official website of CDC, NITK with a custom built CMS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-    ],
-  },
-  {
-    id: "project-7",
-    title: "Huntly",
-    github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
-    content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework"
-      },
-      {
-        id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter"
-      },
-      {
-        id: "icon-3",
-        icon: SiReplit,
-        name: "Replit"
-      },
-      {
-        id: "icon-4",
         icon: SiFlask,
         name: "Flask"
       },
       {
         id: "icon-5",
-        icon: SiFigma,
-        name: "Figma"
-      },
-      {
-        id: "icon-6",
-        icon: SiGooglemaps,
-        name: "Google Maps API"
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "Cluboard",
-    github: "https://github.com/mittal-parth/Cluboard",
-    link: "",
-    image: cluboard,
-    content:
-      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiSqlite,
+        name: "SQLite"
       },
       {
         id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
+        icon: SiReact,
+        name: "React"
       },
       {
         id: "icon-4",
-        icon: SiJavascript,
-        name: "JavaScript"
+        icon: SiNodedotjs,
+        name: "Node.js"
+      },
+    ],
+  },
+  {
+    id: "project-5",
+    title: "AI Image Classifier",
+    github: "https://github.com/SafwanH28/image-classifier",
+    link: "",
+    image: aiclassifier,
+    content:
+      "AI Image Classifier uses PyTorch and Torchvision to accurately predict flower breeds through deep learning models like VGG16 and ResNet.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPytorch,
+        name: "PyTorch"
       },
       {
         id: "icon-5",
-        icon: SiBootstrap,
-        name: "Bootstrap"
+        icon: SiTensorflow,
+        name: "TensorFlow"
       },
       {
-        id: "icon-6",
-        icon: SiChartdotjs,
-        name: "Chart.js"
+        id: "icon-3",
+        icon: SiJupyter,
+        name: "Jupyter Notebook"
+      },
+      {
+        id: "icon-4",
+        icon: SiNumpy,
+        name: "NumPy"
       },
     ],
   },
   {
-    id: "project-9",
-    title: "Cash Flow Minimiser",
-    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-    link: "https://minimise-cash-flow.netlify.app/",
-    image: cash_flow,
+    id: "project-6",
+    title: "Retro Snake",
+    github: "https://github.com/SafwanH28/snake-game",
+    link: "",
+    image: snakegame,
     content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
+      "Retro Snake Game is a modern take on the classic Snake game, built with JavaScript for smooth gameplay and nostalgic fun.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiRay,
+        name: "Raylib"
       },
     ],
   },
@@ -1120,80 +779,38 @@ export const stats = [
 
 export const extraCurricular = [
   {
-    organisation: "Devfolio",
-    title: "UniDAO Lead",
-    duration: "December 2021 - Present",
+    organisation: "Aaniin Retail Inc.",
+    title: "Operations Coordinator Intern",
+    duration: "Jun 2023 - Aug 2023",
     content: [
       {
-        text: "Selected among 5 students across the country to lead the initiative and grow the culture of Blockchain and Ethereum, powered by Devfolio.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7097977924686942209/",
+        text: "Streamlined retail operations and managed inventory for improved efficiency",
       },
       {
-        text: "Led a cohort of 37 selected students over 6 weeks to learn and build in the Ethereum ecosystem.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7095310520282480641/",
+        text: "Enhanced customer service processes to optimize in-store experiences"
       },
+      {
+        text: "Conducted vendor outreach, securing new vendors to expand product offerings and support business growth"
+      }
     ],
-    logo: devfolio,
+    logo: aaniin,
   },
   {
-    organisation: "Google Developer Student Club, NITK",
-    title: "Co-Chair",
-    duration: "December 2021 - Present",
+    organisation: "ViRA360",
+    title: "Business Development Analyst Intern",
+    duration: "May 2024 - Jun 2024",
     content: [
       {
-        text: "Started HackClub to promote and spread the culture of Hackathons in the college. 20+ hackathons particiaptions, 15+ wins over the year.",
-        link: "",
+        text: "Conducted market research to identify potential business opportunities and industry trends",
       },
       {
-        text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
-        link: "https://incident.nitk.ac.in/",
+        text: "Analyzed competitor strategies and provided insights to support business growth",
+      },
+      {
+        text: "Prepared reports and presentations to support decision-making for business development",
       },
     ],
-    logo: gdsc,
-  },
-  {
-    organisation: "Genesis, NITK",
-    title: "Competitions Head",
-    duration: "Sep 2021 - Present",
-    content: [
-      {
-        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
-        link: "",
-      },
-      {
-        text: "Won 7 inter-college solo dance competitions",
-        link: "",
-      },
-    ],
-    logo: genesis,
-  },
-  {
-    organisation: "IRIS, NITK",
-    title: "Tutor",
-    duration: "Jan 2022 - Jan 2022",
-    content: [
-      {
-        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
-        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
-      },
-    ],
-    logo: iris,
-  },
-  {
-    organisation: "E-Cell, NITK",
-    title: "Executive Member",
-    duration: "Sep 2021 - Apr 2022",
-    content: [
-      {
-        text: "Organised the season 3 of the E-Cell NITK Podcast",
-        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
-      },
-      {
-        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
-        link: "",
-      },
-    ],
-    logo: ecell,
+    logo: vira,
   },
 ];
 
@@ -1201,32 +818,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/safwanhaque",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://www.github.com/safwanh28",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
-  },
-  {
-    id: "social-media-4",
-    icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
-  },
-  {
-    id: "social-media-5",
-    icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
+    link: "mailto:haque.safwan0000@gmail.com",
   },
 ];
 
 export const aboutMe = {
-    name: "Parth Mittal",
-    tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
-    intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
+    name: "Safwan Haque",
+    tagLine: "Software Engineering Student at Toronto Metropolitan University",
+    intro: "A Software engineering student passionate about solving the problems of tomorrow"
 }

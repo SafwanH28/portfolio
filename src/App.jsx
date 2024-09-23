@@ -56,13 +56,13 @@ const App = () => {
             <Education />
           </div>
         </div>
-        <Achievements />
+        <Achievements enabled={false}/>
         <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
           <div className={`${styles.boxWidth}`}>
             <Projects />
             <BlogPosts enabled={false} />
-            <OpenSource />
-            <ExtraCurricular />
+            <OpenSource enabled={false}/>
+            <ExtraCurricular/>
           </div>
         </div>
         <Footer />

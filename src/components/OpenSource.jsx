@@ -5,6 +5,7 @@ import { VscIssues } from "react-icons/vsc";
 import { motion } from "framer-motion";
 
 const Contribution = (props) => {
+  if (props.enabled !== true) return null;
   return (
     <motion.div
       className="flex flex-col justify-between px-6 py-6 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 transition-colors duration-300 transform border hover:border-transparent dark:border-gray-700 dark:hover:border-transparent"
@@ -70,7 +71,8 @@ const Contribution = (props) => {
   );
 };
 
-const OpenSource = () => {
+const OpenSource = (props) => {
+  if (props.enabled !== true) return null;
   const [contributions, setContributions] = useState([]);
   const [filterContribution, setFilterContribution] = useState([]);
   const [activeFilter, setActiveFilter] = useState("All");

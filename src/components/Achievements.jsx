@@ -6,7 +6,8 @@ import { FaYoutube } from "react-icons/fa";
 import { TiNews } from "react-icons/ti";
 import styles from "../style";
 
-const Achievements = () => {
+const Achievements = (props) => {
+  if (props.enabled !== true) return null;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMediumScreen, setIsMediumScreen] = useState(false);
 
@@ -91,6 +92,7 @@ const Achievements = () => {
 };
 
 const AchievementCard = (props) => {
+  if (props.enabled !== true) return null;
   return (
     <div className="flex-shrink-0 flex flex-col md:w-[400px] w-[320px] justify-around px-6 py-4 rounded-[20px] md:mr-10 mr-6 mr-0 my-5 transition-colors duration-300 transform border hover:border-transparent dark:border-gray-700 dark:hover:border-transparent">
       <img

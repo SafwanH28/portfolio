@@ -1,5 +1,5 @@
-import parthmittal from "./parth.svg";
-import profilePic from "./profile-pic.jpg";
+import parthmittal from "./sh.png";
+import profilePic from "./body.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -47,12 +47,38 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import greybox from "./greybox.jpg";
+import headstarter from "./headstarter.png";
+import bcedaccess from "./bcedaccess.png";
+import TMU from "./TMU.png";
+import Udacity from './Udacity.png';
+import sfmb from './sfmb.png';
+import aaniin from './aaniin.png';
+import vira from './vira.png';
+import flashpass from './flashcard.png';
+import shelfwise from './book.jpg';
+import advisorai from './advisorai.jpg';
+import aiclassifier from './aiproject.jpg';
+import reciperadar from './recipe.jpg';
+import snakegame from './snakegame.jpg';
+
 
 export {
+  flashpass,
+  shelfwise,
+  aiclassifier,
+  advisorai,
+  reciperadar,
+  snakegame,
+  aaniin, 
+  vira,
   quotes,
   robot,
+  greybox,
+  bcedaccess,
   send,
   shield,
+  headstarter,
   star,
   menu,
   close,
@@ -97,5 +123,8 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  TMU,
+  Udacity,
+  sfmb
 };
