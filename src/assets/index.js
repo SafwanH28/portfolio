@@ -1,5 +1,3 @@
-import parthmittal from "./sh.png";
-import profilePic from "./body.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -61,6 +59,8 @@ import advisorai from './advisorai.jpg';
 import aiclassifier from './aiproject.jpg';
 import reciperadar from './recipe.jpg';
 import snakegame from './snakegame.jpg';
+import parthmittal from "./sh.png";
+import profilePic from "./body2.png";
 
 
 export {
