@@ -61,10 +61,13 @@ import reciperadar from './recipe.jpg';
 import snakegame from './snakegame.jpg';
 import parthmittal from "./sh.png";
 import profilePic from "./body2.png";
+import IBM from "./IBM.png";
+
 
 
 export {
   flashpass,
+  IBM,
   shelfwise,
   aiclassifier,
   advisorai,

@@ -16,6 +16,7 @@ import {
   huntly,
   oracle,
   greybox,
+  IBM,
   comicify_ai,
   greentrust,
   averlon,
@@ -406,6 +407,25 @@ export const skills = [
 ];
 
 export const experiences = [
+  {
+    organisation: "IBM Canada",
+    logo: IBM,
+    link: "https://www.ibm.com/ca-en",
+    positions: [
+      {
+        title: "Software Engineering Co-op",
+        duration: "May 2025 - Aug 2026",
+        content: [
+          {
+          text: "IBM Guardium Cybersecurity - Software Developer Co-op starting in May 2025 (16 Months)",
+          link: ""
+        }
+        
+
+        ],
+      },
+    ],
+  },
   {
     organisation: "Grey-Box",
     logo: greybox,
