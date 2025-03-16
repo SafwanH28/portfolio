@@ -62,6 +62,10 @@ import snakegame from './snakegame.jpg';
 import parthmittal from "./sh.png";
 import profilePic from "./body2.png";
 import IBM from "./IBM.png";
+import snake from "./snake.png";
+import phi from "./phi.png";
+import advisorai2 from "./advisorai2.jpg";
+import book2 from "./book2.jpg"
 
 
 
@@ -129,5 +133,9 @@ export {
   ethforall,
   TMU,
   Udacity,
-  sfmb
+  sfmb,
+  phi,
+  snake,
+  advisorai2,
+  book2
 };

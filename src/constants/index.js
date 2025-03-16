@@ -41,7 +41,11 @@ import {
   aiclassifier,
   advisorai,
   reciperadar,
-  snakegame
+  snakegame,
+  phi,
+  snake,
+  advisorai2,
+  book2
 } from "../assets";
 
 import {
@@ -566,7 +570,7 @@ export const projects = [
     title: "ShelfWise",
     github: "https://github.com/SafwanH28/ShelfWise",
     link: "https://shelfwisemanagement.vercel.app/",
-    image: shelfwise,
+    image: book2,
     content:
       "ShelfWise is a book inventory management system built with Firebase, allowing users to track, manage, and organize their personal or professional book collections. A demo can be viewed by clicking the link icon.",
     stack: [
@@ -602,7 +606,7 @@ export const projects = [
     title: "AdvisorAI",
     github: "https://github.com/SafwanH28/AdvisorAI",
     link: "http://3.143.230.18/",
-    image: advisorai,
+    image: advisorai2,
     content:
       "AdvisorAi is a financial advice chatbot powered by the OpenAI API, offering personalized guidance on budgeting and investing. A demo can be viewed by clicking the link icon.",
     stack: [
@@ -700,7 +704,7 @@ export const projects = [
     title: "Retro Snake",
     github: "https://github.com/SafwanH28/snake-game",
     link: "",
-    image: snakegame,
+    image: snake,
     content:
       "Retro Snake Game is a modern take on the classic Snake game, built with JavaScript for smooth gameplay and nostalgic fun.",
     stack: [
@@ -818,7 +822,7 @@ export const extraCurricular = [
   {
     organisation: "ViRA360",
     title: "Business Development Analyst Intern",
-    duration: "May 2024 - Jun 2024",
+    duration: "May 2024 - Jul 2024",
     content: [
       {
         text: "Conducted market research to identify potential business opportunities and industry trends",
@@ -831,6 +835,23 @@ export const extraCurricular = [
       },
     ],
     logo: vira,
+  },
+  {
+    organisation: "PhiDrillSim",
+    title: "Strategic Research & Regulatory Analyst Intern",
+    duration: "Oct 2024 - Dec 2024",
+    content: [
+      {
+        text: "Researched competitor strategies and market trends to guide PhiDrillSim’s growth.",
+      },
+      {
+        text: "Developed data-driven reports and strategic insights, directly influencing product positioning and market expansion strategies.",
+      },
+      {
+        text: "Analyzed regulatory policies to align software with legal standards.",
+      },
+    ],
+    logo: phi,
   },
 ];
 
